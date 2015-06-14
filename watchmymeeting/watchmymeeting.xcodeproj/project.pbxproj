@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A0ADC061B23CA190027C904 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0ADC051B23CA190027C904 /* AppDelegate.swift */; };
+		0A0ADC081B23CA190027C904 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0ADC071B23CA190027C904 /* ViewController.swift */; };
+		0A0ADC0B1B23CA190027C904 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC091B23CA190027C904 /* Main.storyboard */; };
+		0A0ADC0D1B23CA190027C904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC0C1B23CA190027C904 /* Images.xcassets */; };
+		0A0ADC101B23CA190027C904 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC0E1B23CA190027C904 /* LaunchScreen.xib */; };
+		0A0ADC1C1B23CA190027C904 /* watchmymeetingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0ADC1B1B23CA190027C904 /* watchmymeetingTests.swift */; };
+		0A0ADC2F1B23CA2C0027C904 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0ADC2E1B23CA2C0027C904 /* InterfaceController.swift */; };
+		0A0ADC311B23CA2C0027C904 /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A0ADC301B23CA2C0027C904 /* NotificationController.swift */; };
+		0A0ADC331B23CA2C0027C904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC321B23CA2C0027C904 /* Images.xcassets */; };
+		0A0ADC371B23CA2C0027C904 /* watchmymeeting WatchKit App.app in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC361B23CA2C0027C904 /* watchmymeeting WatchKit App.app */; };
+		0A0ADC3F1B23CA2C0027C904 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC3D1B23CA2C0027C904 /* Interface.storyboard */; };
+		0A0ADC411B23CA2C0027C904 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A0ADC401B23CA2C0027C904 /* Images.xcassets */; };
+		0A0ADC441B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 0A0ADC291B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A0ADC161B23CA190027C904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0ADBF81B23CA190027C904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0ADBFF1B23CA190027C904;
+			remoteInfo = watchmymeeting;
+		};
+		0A0ADC381B23CA2C0027C904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0ADBF81B23CA190027C904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0ADC351B23CA2C0027C904;
+			remoteInfo = "watchmymeeting WatchKit App";
+		};
+		0A0ADC421B23CA2C0027C904 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A0ADBF81B23CA190027C904 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A0ADC281B23CA2C0027C904;
+			remoteInfo = "watchmymeeting WatchKit Extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0A0ADC4B1B23CA2C0027C904 /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0A0ADC441B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0A0ADC001B23CA190027C904 /* watchmymeeting.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = watchmymeeting.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0ADC041B23CA190027C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0ADC051B23CA190027C904 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0A0ADC071B23CA190027C904 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0A0ADC0A1B23CA190027C904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0A0ADC0C1B23CA190027C904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A0ADC0F1B23CA190027C904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		0A0ADC151B23CA190027C904 /* watchmymeetingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = watchmymeetingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0ADC1A1B23CA190027C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0ADC1B1B23CA190027C904 /* watchmymeetingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = watchmymeetingTests.swift; sourceTree = "<group>"; };
+		0A0ADC291B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "watchmymeeting WatchKit Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0ADC2C1B23CA2C0027C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0ADC2D1B23CA2C0027C904 /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		0A0ADC2E1B23CA2C0027C904 /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		0A0ADC301B23CA2C0027C904 /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		0A0ADC321B23CA2C0027C904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A0ADC361B23CA2C0027C904 /* watchmymeeting WatchKit App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "watchmymeeting WatchKit App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A0ADC3C1B23CA2C0027C904 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0A0ADC3E1B23CA2C0027C904 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		0A0ADC401B23CA2C0027C904 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A0ADBFD1B23CA190027C904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC121B23CA190027C904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC261B23CA2C0027C904 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A0ADBF71B23CA190027C904 = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC021B23CA190027C904 /* watchmymeeting */,
+				0A0ADC181B23CA190027C904 /* watchmymeetingTests */,
+				0A0ADC2A1B23CA2C0027C904 /* watchmymeeting WatchKit Extension */,
+				0A0ADC3A1B23CA2C0027C904 /* watchmymeeting WatchKit App */,
+				0A0ADC011B23CA190027C904 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0A0ADC011B23CA190027C904 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC001B23CA190027C904 /* watchmymeeting.app */,
+				0A0ADC151B23CA190027C904 /* watchmymeetingTests.xctest */,
+				0A0ADC291B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex */,
+				0A0ADC361B23CA2C0027C904 /* watchmymeeting WatchKit App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A0ADC021B23CA190027C904 /* watchmymeeting */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC051B23CA190027C904 /* AppDelegate.swift */,
+				0A0ADC071B23CA190027C904 /* ViewController.swift */,
+				0A0ADC091B23CA190027C904 /* Main.storyboard */,
+				0A0ADC0C1B23CA190027C904 /* Images.xcassets */,
+				0A0ADC0E1B23CA190027C904 /* LaunchScreen.xib */,
+				0A0ADC031B23CA190027C904 /* Supporting Files */,
+			);
+			path = watchmymeeting;
+			sourceTree = "<group>";
+		};
+		0A0ADC031B23CA190027C904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC041B23CA190027C904 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A0ADC181B23CA190027C904 /* watchmymeetingTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC1B1B23CA190027C904 /* watchmymeetingTests.swift */,
+				0A0ADC191B23CA190027C904 /* Supporting Files */,
+			);
+			path = watchmymeetingTests;
+			sourceTree = "<group>";
+		};
+		0A0ADC191B23CA190027C904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC1A1B23CA190027C904 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A0ADC2A1B23CA2C0027C904 /* watchmymeeting WatchKit Extension */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC2E1B23CA2C0027C904 /* InterfaceController.swift */,
+				0A0ADC301B23CA2C0027C904 /* NotificationController.swift */,
+				0A0ADC321B23CA2C0027C904 /* Images.xcassets */,
+				0A0ADC2B1B23CA2C0027C904 /* Supporting Files */,
+			);
+			path = "watchmymeeting WatchKit Extension";
+			sourceTree = "<group>";
+		};
+		0A0ADC2B1B23CA2C0027C904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC2C1B23CA2C0027C904 /* Info.plist */,
+				0A0ADC2D1B23CA2C0027C904 /* PushNotificationPayload.apns */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A0ADC3A1B23CA2C0027C904 /* watchmymeeting WatchKit App */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC3D1B23CA2C0027C904 /* Interface.storyboard */,
+				0A0ADC401B23CA2C0027C904 /* Images.xcassets */,
+				0A0ADC3B1B23CA2C0027C904 /* Supporting Files */,
+			);
+			path = "watchmymeeting WatchKit App";
+			sourceTree = "<group>";
+		};
+		0A0ADC3B1B23CA2C0027C904 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A0ADC3C1B23CA2C0027C904 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A0ADBFF1B23CA190027C904 /* watchmymeeting */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0ADC1F1B23CA190027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting" */;
+			buildPhases = (
+				0A0ADBFC1B23CA190027C904 /* Sources */,
+				0A0ADBFD1B23CA190027C904 /* Frameworks */,
+				0A0ADBFE1B23CA190027C904 /* Resources */,
+				0A0ADC4B1B23CA2C0027C904 /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0ADC431B23CA2C0027C904 /* PBXTargetDependency */,
+			);
+			name = watchmymeeting;
+			productName = watchmymeeting;
+			productReference = 0A0ADC001B23CA190027C904 /* watchmymeeting.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A0ADC141B23CA190027C904 /* watchmymeetingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0ADC221B23CA190027C904 /* Build configuration list for PBXNativeTarget "watchmymeetingTests" */;
+			buildPhases = (
+				0A0ADC111B23CA190027C904 /* Sources */,
+				0A0ADC121B23CA190027C904 /* Frameworks */,
+				0A0ADC131B23CA190027C904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0ADC171B23CA190027C904 /* PBXTargetDependency */,
+			);
+			name = watchmymeetingTests;
+			productName = watchmymeetingTests;
+			productReference = 0A0ADC151B23CA190027C904 /* watchmymeetingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0A0ADC281B23CA2C0027C904 /* watchmymeeting WatchKit Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0ADC481B23CA2C0027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting WatchKit Extension" */;
+			buildPhases = (
+				0A0ADC251B23CA2C0027C904 /* Sources */,
+				0A0ADC261B23CA2C0027C904 /* Frameworks */,
+				0A0ADC271B23CA2C0027C904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A0ADC391B23CA2C0027C904 /* PBXTargetDependency */,
+			);
+			name = "watchmymeeting WatchKit Extension";
+			productName = "watchmymeeting WatchKit Extension";
+			productReference = 0A0ADC291B23CA2C0027C904 /* watchmymeeting WatchKit Extension.appex */;
+			productType = "com.apple.product-type.watchkit-extension";
+		};
+		0A0ADC351B23CA2C0027C904 /* watchmymeeting WatchKit App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A0ADC451B23CA2C0027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting WatchKit App" */;
+			buildPhases = (
+				0A0ADC341B23CA2C0027C904 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "watchmymeeting WatchKit App";
+			productName = "watchmymeeting WatchKit App";
+			productReference = 0A0ADC361B23CA2C0027C904 /* watchmymeeting WatchKit App.app */;
+			productType = "com.apple.product-type.application.watchapp";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A0ADBF81B23CA190027C904 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = pointlook;
+				TargetAttributes = {
+					0A0ADBFF1B23CA190027C904 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0A0ADC141B23CA190027C904 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = 0A0ADBFF1B23CA190027C904;
+					};
+					0A0ADC281B23CA2C0027C904 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					0A0ADC351B23CA2C0027C904 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+				};
+			};
+			buildConfigurationList = 0A0ADBFB1B23CA190027C904 /* Build configuration list for PBXProject "watchmymeeting" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0A0ADBF71B23CA190027C904;
+			productRefGroup = 0A0ADC011B23CA190027C904 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A0ADBFF1B23CA190027C904 /* watchmymeeting */,
+				0A0ADC141B23CA190027C904 /* watchmymeetingTests */,
+				0A0ADC281B23CA2C0027C904 /* watchmymeeting WatchKit Extension */,
+				0A0ADC351B23CA2C0027C904 /* watchmymeeting WatchKit App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A0ADBFE1B23CA190027C904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC0B1B23CA190027C904 /* Main.storyboard in Resources */,
+				0A0ADC101B23CA190027C904 /* LaunchScreen.xib in Resources */,
+				0A0ADC0D1B23CA190027C904 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC131B23CA190027C904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC271B23CA2C0027C904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC371B23CA2C0027C904 /* watchmymeeting WatchKit App.app in Resources */,
+				0A0ADC331B23CA2C0027C904 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC341B23CA2C0027C904 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC3F1B23CA2C0027C904 /* Interface.storyboard in Resources */,
+				0A0ADC411B23CA2C0027C904 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A0ADBFC1B23CA190027C904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC081B23CA190027C904 /* ViewController.swift in Sources */,
+				0A0ADC061B23CA190027C904 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC111B23CA190027C904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC1C1B23CA190027C904 /* watchmymeetingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A0ADC251B23CA2C0027C904 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A0ADC311B23CA2C0027C904 /* NotificationController.swift in Sources */,
+				0A0ADC2F1B23CA2C0027C904 /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A0ADC171B23CA190027C904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0ADBFF1B23CA190027C904 /* watchmymeeting */;
+			targetProxy = 0A0ADC161B23CA190027C904 /* PBXContainerItemProxy */;
+		};
+		0A0ADC391B23CA2C0027C904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0ADC351B23CA2C0027C904 /* watchmymeeting WatchKit App */;
+			targetProxy = 0A0ADC381B23CA2C0027C904 /* PBXContainerItemProxy */;
+		};
+		0A0ADC431B23CA2C0027C904 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A0ADC281B23CA2C0027C904 /* watchmymeeting WatchKit Extension */;
+			targetProxy = 0A0ADC421B23CA2C0027C904 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A0ADC091B23CA190027C904 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0ADC0A1B23CA190027C904 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0A0ADC0E1B23CA190027C904 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0ADC0F1B23CA190027C904 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		0A0ADC3D1B23CA2C0027C904 /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A0ADC3E1B23CA2C0027C904 /* Base */,
+			);
+			name = Interface.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A0ADC1D1B23CA190027C904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0A0ADC1E1B23CA190027C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A0ADC201B23CA190027C904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchmymeeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0A0ADC211B23CA190027C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = watchmymeeting/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0A0ADC231B23CA190027C904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = watchmymeetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchmymeeting.app/watchmymeeting";
+			};
+			name = Debug;
+		};
+		0A0ADC241B23CA190027C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = watchmymeetingTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/watchmymeeting.app/watchmymeeting";
+			};
+			name = Release;
+		};
+		0A0ADC461B23CA2C0027C904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IBSC_MODULE = watchmymeeting_WatchKit_Extension;
+				INFOPLIST_FILE = "watchmymeeting WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Debug;
+		};
+		0A0ADC471B23CA2C0027C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				IBSC_MODULE = watchmymeeting_WatchKit_Extension;
+				INFOPLIST_FILE = "watchmymeeting WatchKit App/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = 4;
+				"TARGETED_DEVICE_FAMILY[sdk=iphonesimulator*]" = "1,4";
+			};
+			name = Release;
+		};
+		0A0ADC491B23CA2C0027C904 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "watchmymeeting WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		0A0ADC4A1B23CA2C0027C904 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "watchmymeeting WatchKit Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A0ADBFB1B23CA190027C904 /* Build configuration list for PBXProject "watchmymeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ADC1D1B23CA190027C904 /* Debug */,
+				0A0ADC1E1B23CA190027C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A0ADC1F1B23CA190027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ADC201B23CA190027C904 /* Debug */,
+				0A0ADC211B23CA190027C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A0ADC221B23CA190027C904 /* Build configuration list for PBXNativeTarget "watchmymeetingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ADC231B23CA190027C904 /* Debug */,
+				0A0ADC241B23CA190027C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A0ADC451B23CA2C0027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting WatchKit App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ADC461B23CA2C0027C904 /* Debug */,
+				0A0ADC471B23CA2C0027C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0A0ADC481B23CA2C0027C904 /* Build configuration list for PBXNativeTarget "watchmymeeting WatchKit Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A0ADC491B23CA2C0027C904 /* Debug */,
+				0A0ADC4A1B23CA2C0027C904 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A0ADBF81B23CA190027C904 /* Project object */;
+}
